@@ -231,7 +231,7 @@ export const Topbar = ({ toggleMobileSidebar, openNotificationPanel, openGlobalS
         </button>
 
         {/* Sun / Moon Theme Switch Pill (No Toast on click) */}
-        {/* <button
+        <button
           onClick={toggleTheme}
           className="flex items-center gap-0.5 bg-white/20 hover:bg-white/30 p-1 rounded-full text-white transition-all cursor-pointer border border-white/30 shadow-xs"
           title={`Currently ${theme === "dark" ? "Dark Mode" : "Light Mode"}. Click to toggle.`}
@@ -252,7 +252,7 @@ export const Topbar = ({ toggleMobileSidebar, openNotificationPanel, openGlobalS
           >
             <Moon className="w-3.5 h-3.5" />
           </div>
-        </button> */}
+        </button>
 
         {/* Notifications Bell */}
         <button
