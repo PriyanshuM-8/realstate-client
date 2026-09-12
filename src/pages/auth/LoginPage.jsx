@@ -42,7 +42,7 @@ export const LoginPage = () => {
           </div>
         </div>
         <h2 className="mt-4 text-center text-2xl font-bold text-white tracking-tight">
-          Apex RealEstate CRM
+           RealEstate CRM
         </h2>
         <p className="mt-1 text-center text-xs text-slate-400">
           Production Enterprise Lead & Sales Management Platform
